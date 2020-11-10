@@ -21,9 +21,9 @@ body .ui-accordion .ui-accordion-header {
   body .ui-accordion .ui-accordion-header a:focus {
     outline: 0 none;
     outline-offset: 0;
-    -webkit-box-shadow: 0 0 0 0.2em #a3c20d  ;
-    -moz-box-shadow: 0 0 0 0.2em #a3c20d  ;
-    box-shadow: 0 0 0 0.2em #a3c20d  ;
+    -webkit-box-shadow: 0 0 0 0.2em #b8ce4e  ;
+    -moz-box-shadow: 0 0 0 0.2em #b8ce4e  ;
+    box-shadow: 0 0 0 0.2em #b8ce4e  ;
   }
   body .ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover a {
     background-color: #dbdbdb;
@@ -42,8 +42,8 @@ body .ui-accordion .ui-accordion-header {
     color: #ffffff;
   }
   body .ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active:hover a {
-    border: 1px solid #84923d ;
-    background-color: #7e8a45 ;
+    border: 1px solid #6b7a22 ;
+    background-color: #6b7a22 ;
     color: #ffffff;
   }
   body .ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active:hover a .ui-accordion-toggle-icon {
@@ -57,3 +57,171 @@ body .ui-accordion .ui-accordion-header {
     padding: 0.571em 1em;
   }
   
+
+
+
+
+  body .ui-dialog {
+    padding: 0;
+    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+  }
+  body .ui-dialog .ui-dialog-titlebar {
+    border: 1px solid #c8c8c8;
+    background-color: #f4f4f4;
+    color: #333333;
+    padding: 1em;
+    font-weight: 700;
+    border-bottom: 0 none;
+  }
+  body .ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+    margin: 0;
+    float: none;
+  }
+  body .ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-icon {
+    color: #848484;
+    border: 0 none;
+    padding: 0;
+    margin-left: 0.5em;
+    -moz-transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+    -o-transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+    -webkit-transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+    transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+  }
+  body .ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-icon span {
+    width: auto;
+  }
+  body .ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-icon:hover {
+    color: #333333;
+  }
+  body .ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-icon:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    -webkit-box-shadow: 0 0 0 0.2em #8dcdff;
+    -moz-box-shadow: 0 0 0 0.2em #8dcdff;
+    box-shadow: 0 0 0 0.2em #8dcdff;
+  }
+  body .ui-dialog .ui-dialog-content {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #c8c8c8;
+    padding: 0.571em 1em;
+  }
+  body .ui-dialog .ui-dialog-footer {
+    border: 1px solid #c8c8c8;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 0.571em 1em;
+    margin: 0;
+    text-align: right;
+    position: relative;
+    border-top: 0 none;
+  }
+  body .ui-dialog .ui-dialog-footer button {
+    margin: 0 0.5em 0 0;
+    width: auto;
+  }
+  body .ui-dialog.ui-confirm-dialog .ui-dialog-content {
+    padding: 1.5em;
+  }
+  body .ui-dialog.ui-confirm-dialog .ui-dialog-content > span {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 14px;
+    margin: 0;
+  }
+  body .ui-dialog.ui-confirm-dialog .ui-dialog-content > span.ui-icon {
+    margin-right: 0.35em;
+    font-size: 16px;
+  }
+
+  body .ui-dropdown {
+    background: #ffffff;
+    border: 1px solid #a6a6a6;
+    -moz-transition: border-color 0.2s, box-shadow 0.2s;
+    -o-transition: border-color 0.2s, box-shadow 0.2s;
+    -webkit-transition: border-color 0.2s, box-shadow 0.2s;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  body .ui-dropdown:not(.ui-state-disabled):hover {
+    border-color: #212121;
+  }
+  body .ui-dropdown:not(.ui-state-disabled).ui-state-focus {
+    outline: 0 none;
+    outline-offset: 0;
+    -webkit-box-shadow: 0 0 0 0.2em #b8ce4e;
+    -moz-box-shadow: 0 0 0 0.2em #b8ce4e;
+    box-shadow: 0 0 0 0.2em #b8ce4e;
+    border-color: #6b7a22;
+  }
+  body .ui-dropdown .ui-dropdown-label {
+    padding-right: 2em;
+  }
+  body .ui-dropdown .ui-dropdown-label .ui-placeholder {
+    color: #666666;
+  }
+  body .ui-dropdown .ui-dropdown-trigger {
+    background-color: #ffffff;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding: 0;
+    color: #848484;
+  }
+  body .ui-dropdown .ui-dropdown-clear-icon {
+    color: #848484;
+  }
+  body .ui-dropdown.ui-dropdown-clearable .ui-dropdown-label {
+    padding-right: 4em;
+  }
+  body .ui-dropdown-panel {
+    padding: 0;
+    border: 1px solid #c8c8c8;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  }
+  body .ui-dropdown-panel .ui-dropdown-filter-container {
+    padding: 0.429em 0.857em 0.429em 0.857em;
+    border-bottom: 1px solid #eaeaea;
+    color: #333333;
+    background-color: #ffffff;
+    margin: 0;
+  }
+  body .ui-dropdown-panel .ui-dropdown-filter-container .ui-dropdown-filter {
+    width: 100%;
+    padding-right: 2em;
+  }
+  body .ui-dropdown-panel .ui-dropdown-filter-container .ui-dropdown-filter-icon {
+    top: 50%;
+    margin-top: -0.5em;
+    right: 1.357em;
+    color: #6b7a22;
+  }
+  body .ui-dropdown-panel .ui-dropdown-items {
+    padding: 0;
+  }
+  body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item, body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item-group {
+    margin: 0;
+    padding: 0.429em 0.857em;
+    border: 0 none;
+    color: #333333;
+    background-color: transparent;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+  body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item.ui-state-highlight, body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item-group.ui-state-highlight {
+    color: #ffffff;
+    background-color: #6b7a22;
+  }
+  body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item:not(.ui-state-highlight):not(.ui-state-disabled):hover, body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item-group:not(.ui-state-highlight):not(.ui-state-disabled):hover {
+    color: #333333;
+    background-color: #eaeaea;
+  }
+  body p-dropdown.ng-dirty.ng-invalid > .ui-dropdown {
+    border: 1px solid #a80000;
+  }

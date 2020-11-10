@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SampleComponent } from './prime/view/sample/sample.component';
+import {DialogModule} from 'primeng/dialog';
 
 
 
@@ -25,6 +26,7 @@ import {PickListModule} from 'primeng/picklist';
 
 import {RadioButtonModule} from 'primeng/radiobutton';
 import {AccordionModule} from 'primeng/accordion';
+import {DropdownModule} from 'primeng/dropdown';
 
 
 @NgModule({
@@ -48,6 +50,8 @@ import {AccordionModule} from 'primeng/accordion';
     RadioButtonModule,
     AccordionModule,    
     BrowserAnimationsModule,
+    DialogModule,
+    DropdownModule
     
     
   ],
